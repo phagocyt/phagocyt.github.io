@@ -22,12 +22,12 @@ DEFAULT_LANG = 'en'
 THEME = 'themes/pelican-fh5co-marble'
 
 # Make sure your pages show in the menu:
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 
 # MENUITEMS = [
-#     ('Home', 'index.html'),
-#     ('Side Projects', '/side-projects.html'),
-# ]
+#     #  ('Home', 'index.html'),
+#      ('Side Projects', '/side-projects.html'),
+#  ]
 
 
 # Paths
