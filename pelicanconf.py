@@ -2,20 +2,41 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Hui Ji'
-SITENAME = 'My Website'
+SITENAME = 'My Site'
 SITEURL = ''
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+
 
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'  # change for your timezone
 DEFAULT_LANG = 'en'
 
+# Theme (optional)
+THEME = 'themes/pelican-fh5co-marble'
+
+# Make sure your pages show in the menu:
+DISPLAY_PAGES_ON_MENU = True
+
+MENUITEMS = [
+    ('Home', '/'),
+    # ('Blog', '/archives.html'),
+    ('Side Projects', '/side-projects.html'),
+]
+
+
+
 # Paths
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['posts']
 
-# Theme (optional)
-THEME = 'theme'
+
 
 # URLs
 PAGE_URL = '{slug}.html'
