@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'Hui Ji'
-SITENAME = 'My Site'
+AUTHOR = ''
+SITENAME = ''
 SITEURL = ''
 
 PLUGIN_PATHS = ['pelican-plugins']
@@ -24,12 +24,10 @@ THEME = 'themes/pelican-fh5co-marble'
 # Make sure your pages show in the menu:
 DISPLAY_PAGES_ON_MENU = True
 
-MENUITEMS = [
-    ('Home', '/'),
-    # ('Blog', '/archives.html'),
-    ('Side Projects', '/side-projects.html'),
-]
-
+# MENUITEMS = [
+#     ('Home', 'index.html'),
+#     ('Side Projects', '/side-projects.html'),
+# ]
 
 
 # Paths
@@ -44,6 +42,8 @@ PAGE_SAVE_AS = '{slug}.html'
 
 ARTICLE_URL = 'posts/{slug}.html'
 ARTICLE_SAVE_AS = 'posts/{slug}.html'
+
+INDEX_SAVE_AS = ''
 
 # Feed generation (disable while developing)
 FEED_ALL_ATOM = None
