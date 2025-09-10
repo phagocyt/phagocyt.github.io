@@ -19,4 +19,4 @@ Email: huiji [at] stanford [dot] edu
 
 ---
 
-[CV](files/Hui_Ji_CV_20250107.pdf)
+[CV](files/Hui_Ji_CV_20250910.pdf)
